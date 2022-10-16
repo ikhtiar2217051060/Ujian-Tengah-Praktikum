@@ -2,7 +2,7 @@
 #include <stdlib.h>
 using namespace std;
 void pack(){
-	cout<<"\================================================";
+    cout<<"\================================================";
     cout<<"\n===============||L@MPONG EXPRESS||==============";
     cout<<"\n================================================";
     cout<<"\n1. Berkas/File/Surat";
@@ -26,7 +26,7 @@ int main() {
    			cout<<"\n"<<x+1<<". "<<daftar_kota[x];
 	   }
     	cout<<"\n===============================================";
-   		switch(jns_barang){
+   	switch(jns_barang){
     		case 1 :
     			cout<<"\nJenis Barang yang dikirim = Berkas/File/Surat";
     			break;
@@ -36,11 +36,11 @@ int main() {
     		case 3 :
     			cout<<"\nJenis Barang yang dikirim = Paket";
     			break;
-		}
+	}
     	cout<<"\nInput Kode Kota Awal   \t  = ";
     	cin>>kota_awal;
     	cout<<"Input Kode Kota Tujuan \t  = ";
-		cin>>kota_tujuan;
+	cin>>kota_tujuan;
 		if ((kota_awal>=1&&kota_awal<=14)&&(kota_tujuan>=1&&kota_tujuan<=14)){
 			system ("cls");		
 		} else {
