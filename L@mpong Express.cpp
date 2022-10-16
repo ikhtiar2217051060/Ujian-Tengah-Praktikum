@@ -2,8 +2,8 @@
 #include <stdlib.h>
 using namespace std;
 void pack(){
-    cout<<"\================================================";
-    cout<<"\n================L@MPONG EXPRESS=================";
+	cout<<"\================================================";
+    cout<<"\n===============||L@MPONG EXPRESS||==============";
     cout<<"\n================================================";
     cout<<"\n1. Berkas/File/Surat";
     cout<<"\n2. Barang";
@@ -14,13 +14,13 @@ int main() {
 
     int jns_barang, kota_awal, kota_tujuan;
     string daftar_kota[14] = {"Bandar Lampung", "Metro", "Lampung Barat", "Lampung Selatan", "Lampung Tengah", "Lampung Timur", "Lampung Utara", "Mesuji", "Pesawaran", "Pesisir Barat", "Pringsewu", "Tanggamus", "Tulang Bawang", "Way Kanan"};
-	  pack();
+	pack();
     cout<<"\nInput Kode Jenis Barang yang Ingin Dikirim = ";
     cin>>jns_barang;
     if (jns_barang>=1&&jns_barang<=3){
     	system ("cls");
     	cout<<"===============================================";
-    	cout<<"\n================L@MPONG EXPRESS================";
+    	cout<<"\n===============||L@MPONG EXPRESS||=============";
     	cout<<"\n===============================================";
    		for (int x=0; x<14; x++){
    			cout<<"\n"<<x+1<<". "<<daftar_kota[x];
