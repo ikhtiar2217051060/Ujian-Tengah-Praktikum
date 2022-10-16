@@ -37,9 +37,9 @@ int main() {
     			cout<<"\nJenis Barang yang dikirim = Paket";
     			break;
 		}
-    	cout<<"\nInput Kode Kota Awal   \t  = ";
+    	cout<<"\nInput nomor Kota Awal  \t  = ";
     	cin>>kota_awal;
-    	cout<<"Input Kode Kota Tujuan \t  = ";
+    	cout<<"Input nomor Kota Tujuan\t  = ";
 		cin>>kota_tujuan;
 		string from, to;
 		if ((kota_awal>=1&&kota_awal<=14)&&(kota_tujuan>=1&&kota_tujuan<=14)){
