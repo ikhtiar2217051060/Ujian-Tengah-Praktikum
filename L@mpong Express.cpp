@@ -140,3 +140,6 @@ int main() {
 	cout<<"Terima kasih telah memakai layanan L@MPONG EXPRESS"<<endl;	
 	return 0;	
 } 
+//IKhtiar Adli Wicaksono (2217051060)
+//Aimar Abie Pasah (2217051121)
+//Irfan Marcellino (2257051024)
